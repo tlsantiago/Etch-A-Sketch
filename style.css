@@ -1,0 +1,65 @@
+body {
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Metal Mania', cursive;
+
+}
+
+.header {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.color-selector {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.shades {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Metal Mania', cursive;
+    box-shadow: 2px 2px;
+}
+
+.reset {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Metal Mania', cursive;
+    box-shadow: 2px 2px;
+
+}
+
+.container {
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+    width: 30vw;
+    height: 30vw;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.square {
+    background-color: white;
+
+}

@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <title>Etch-A-Sketch</title>
 </head>
+
 <body>
+
+    <div class="header">Etch-A-Sketch</div>
     
-    <div class="container">
-    
+    <div class="buttons">
+    <button class="reset">Reset</button>
+    <button class="shades">Shades</button>
     </div>
+
+    <div class="color-selector">
+        <label>Choose Your Color: <input type="color" class="colors" id="colors"></input></label>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
